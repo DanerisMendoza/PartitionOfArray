@@ -1,0 +1,27 @@
+<!-- dialog_grid.xml -->
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+<GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridView"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:numColumns="1"
+    android:horizontalSpacing="8dp"
+    android:verticalSpacing="8dp"
+    android:padding="8dp"
+    android:background="@android:color/white"/>
+
+
+</LinearLayout>
+
+
+
